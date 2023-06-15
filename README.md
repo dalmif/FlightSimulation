@@ -1,5 +1,7 @@
 # Flight Simulation
+Simple project to demonstrate the application of OOP concepts in flight simulation.
 
+This project can only be used for educational purposes and it needs changes to be optimized for its use in other fields.
 ## Idea description
 This project is about simulating of flight and aircraft which have some basic entities listed below:
 1. Aircraft
@@ -23,9 +25,9 @@ I started to show and control a simple rectangle using keyboard. i tried to use 
 was amazingly easy to add new features to the simulation, and with a little thought, i could add interesting things to my codes without 
 complications hence i understood the power of OOP and i enjoyed a lot.
 to implement the GUI i had to use Thread and implement a class which refresh the screen every 60 ms.
-as i have some experience in UI designing too i started to design a beautiful UI and this was the result of my attempt.
+as I have some experience in UI designing too i started to design a beautiful UI and this was the result of my attempt.
 
-![[screenshot/scrren_shot.gif]]
+![](https://github.com/dalmif/FlightSimulation/blob/main/screenshot/scrren_shot.gif?raw=true)
 
 
 
@@ -38,7 +40,8 @@ we have an Aircraft entity which define the general attributes and a `Controllab
 keyboard also can be drawn on the screen.
 now we can implement variety of aircraft such as Military and Airliner and subtype of both.
 
-![[Screenshot 2023-06-05 at 21.52.56.png]]
+
+![](https://github.com/dalmif/FlightSimulation/blob/main/screenshot/hierarchy1.png?raw=true)
 (Purple shows Abstract)
 
 This is the hierarchy of Aircrafts.
@@ -49,7 +52,7 @@ ControllableAircraft implemented them.
 * *Drawable*: the element which has an image to be drawn on the screen like Watchtower and ControllableAircraft.
 
 here is the complete hierarchy.
-![[Screenshot 2023-06-05 at 21.52.06.png]]
+![](https://github.com/dalmif/FlightSimulation/blob/main/screenshot/hierarchy2.png?raw=true)
 (Green shows Interface)
 
 and the last episode of the story is Weapons which are simple and not powerful in this version.
@@ -64,7 +67,6 @@ this part of this report file will evaluate the usage of concepts.
 ### Modularity
 The project has divide it's files to multiple packages with related classes such as Unit, Utility and Weapons which can be reused in 
 other project in the future.
-![[Screenshot 2023-06-07 at 21.40.35.png]]
 
 
 ### Hierarchy
